@@ -2,9 +2,11 @@
 Miniproject made by Markus Nielsen for Programmering af interaktive 3D verdener
 
 Overview of the Game:
+
 This project is a first-person shooter heavily inspired by the Star Wars Dark Forces games, which have used the same engine as DOOM. The player is put in a closed off arena, where the player must shoot incoming enemies to get the highest score possible.  The player uses both keyboard and mouse controls to move around the field and shoot enemies.  The goal of the game can be two things, depending on who is playing. Either to get the highest score possible, by killing enemies or to survive as long as possible, by not getting hit by the enemies. The game becomes progressively harder with time as enemies keep spawning and you only have a limited amount of health, which cannot be regained. The game also becomes harder as the player has a certain number of bullets and can only regain bullets from killing enemies and collecting magazines. Therefore, the player must manage how they use their bullets.  
 
 The main parts of the game are:
+
 •	Player – First-person character moved with the WASD and SPACE keys. Hold SHIFT key to sprint
 •	Camera – Follow the player and can be rotated with the mouse.
 •	Gun – Shoots instantiated bullets when pressing the left mouse button. The player can switch between single fire and rapid fire by pressing R.
@@ -18,6 +20,7 @@ The main parts of the game are:
 
 
 Game features:
+
 •	Positions and types of enemies are randomly selected each time helping with replay-ability.
 •	The difficulty of the game becomes harder with time, as 
   o	Enemies keep spawning,
@@ -26,7 +29,9 @@ Game features:
 •	The game keeps track of the score and time.
 
 Project Parts:
+
 •	Scripts:
+
   o	Enemy1, Enemy2, Enemy3 – Scripts for the different types of enemies. 
     	Scripts don’t have much difference, but the original intent was to give each enemy a different attribute, but it was never implemented.
 
@@ -50,19 +55,24 @@ Project Parts:
   
 
 •	Models & Prefabs:
+
   o	Enemy models, bullets and magazine object made with Unity primitives
 
 •	Materials:
+
   o	Basic Unity materials for highlighting different enemy types, bullets, gun, walls.
 
 •	Scenes:
+
   o	Game consists of one scene
 
 •	Testing:
+
   o	Game was tested on Windows, game cannot be currently played on a mobile platform
 
 
-Used Resources
+Used Resources:
+
 •	Inspiration to spawn enemies at random positions: https://answers.unity.com/questions/810806/spawn-random-enemy.html.
 
 •	Unity Starter Asset: https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526 
