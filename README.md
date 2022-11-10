@@ -31,10 +31,15 @@ The main parts of the game are:
 Game features:
 
 •	Positions and types of enemies are randomly selected each time helping with replay-ability.
+
 •	The difficulty of the game becomes harder with time, as 
+
   o	Enemies keep spawning,
+ 
   o	Player never regains health. 
+  
   o	Player must manage their bullets and always make sure they have enough to kill incoming enemies.
+  
 •	The game keeps track of the score and time.
 
 Project Parts:
