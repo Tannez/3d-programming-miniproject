@@ -8,14 +8,23 @@ This project is a first-person shooter heavily inspired by the Star Wars Dark Fo
 The main parts of the game are:
 
 •	Player – First-person character moved with the WASD and SPACE keys. Hold SHIFT key to sprint
+
 •	Camera – Follow the player and can be rotated with the mouse.
+
 •	Gun – Shoots instantiated bullets when pressing the left mouse button. The player can switch between single fire and rapid fire by pressing R.
+
 •	Magazines – Magazine objects are spawned on the field when enemies are killed. Each magazine gives 20 bullets to the player’s bullet meter.
+
 •	Enemies – Tough, Normal, and Weak enemies, are spawned in random places set in the inspector and move toward the position of the player using a NavMeshAgent. Every enemy has a different amount of health and range of damage, with Tough being the strongest and weak being the weakest. Enemies damage the player through collision and are destroyed if hit by enough bullets to take down their health. Killing an enemy spawns a magazine object and add points to the score.
+
 •	Score – Counts a score based on enemies killed. Each enemy type grants different points.
+
 •	Play field – Close-off space where the player can freely move. The player cannot go out of the field.
+
 •	Player Health – The player starts with 100 health. Once all lives are removed the game ends.
+
 •	Bullet meter- Shows the player how many bullets they have left. Meter can only be filled from collecting magazines.
+
 •	Timer – Shows how long you have survived.
 
 
